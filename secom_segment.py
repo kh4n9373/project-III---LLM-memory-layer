@@ -2,7 +2,6 @@ import os
 os.environ["OPENAI_API_KEY"] = "sk-xxx"
 os.environ["OPENAI_API_BASE"] = "http://localhost:8001/v1"
 
-# Set your served model name here or via env: SECOM_SEGMENT_MODEL
 SEGMENT_MODEL = "Qwen/Qwen3-8B"
 
 from SeCom.secom import SeCom
@@ -12,13 +11,12 @@ mm = SeCom(
     config_path="/home/hungpv/projects/memory_data/SeCom/secom/configs/mpnet.yaml",
 )
 
-# Override segmentor to use your OpenAI-compatible served model (e.g., Qwen)
-# Set disable_reasoning=True to prevent <think> tags in Qwen models
+
 mm.init_segmentor(
     segment_model=SEGMENT_MODEL,
     prompt_path="instructions/segment_with_exchange_number.md",
     incremental_prompt_path="instructions/segment_incremental.md",
-    disable_reasoning=True,  # Disable <think> reasoning for Qwen
+    disable_reasoning=True,  
 )
 
 sessions = [

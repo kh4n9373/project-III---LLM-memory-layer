@@ -1,0 +1,217 @@
+{
+  "conv_id": "conv-26",
+  "qas": [
+    {
+      "question": "When did Caroline go to the LGBTQ support group?",
+      "answer": "7 May 2023",
+      "evidences": [
+        "I went to a LGBTQ support group yesterday and it was so powerful."
+      ],
+      "category": 2
+    }
+  ],
+  "dialogs": [
+    {
+      "session_id": "session_1",
+      "datetime": "1:56 pm on 8 May, 2023",
+      "messages": [
+        {
+          "role": "Caroline",
+          "content": "Hey Mel! Good to see you! How have you been?"
+        },
+        {
+          "role": "Melanie",
+          "content": "Hey Caroline! Good to see you! I'm swamped with the kids & work. What's up with you? Anything new?"
+        },
+        {
+          "role": "Caroline",
+          "content": "I went to a LGBTQ support group yesterday and it was so powerful."
+        },
+        {
+          "role": "Melanie",
+          "content": "Wow, that's cool, Caroline! What happened that was so awesome? Did you hear any inspiring stories?"
+        },
+        {
+          "role": "Caroline",
+          "content": "The transgender stories were so inspiring! I was so happy and thankful for all the support."
+        },
+        {
+          "role": "Melanie",
+          "content": "Wow, love that painting! So cool you found such a helpful group. What's it done for you?"
+        },
+        {
+          "role": "Caroline",
+          "content": "The support group has made me feel accepted and given me courage to embrace myself."
+        },
+        {
+          "role": "Melanie",
+          "content": "That's really cool. You've got guts. What now?"
+        },
+        {
+          "role": "Caroline",
+          "content": "Gonna continue my edu and check out career options, which is pretty exciting!"
+        },
+        {
+          "role": "Melanie",
+          "content": "Wow, Caroline! What kinda jobs are you thinkin' of? Anything that stands out?"
+        },
+        {
+          "role": "Caroline",
+          "content": "I'm keen on counseling or working in mental health - I'd love to support those with similar issues."
+        },
+        {
+          "role": "Melanie",
+          "content": "You'd be a great counselor! Your empathy and understanding will really help the people you work with."
+        }
+      ],
+      "segments": [
+        {
+          "segment_id": "seg_1",
+          "title": "LGBTQ support group experience",
+          "summary": "Caroline shares her powerful experience attending an LGBTQ support group yesterday. The transgender stories were particularly inspiring and made her feel accepted and thankful for the community support. The group has given her courage to embrace herself.",
+          "key_entities": [
+            "Caroline",
+            "Melanie",
+            "LGBTQ support group",
+            "transgender",
+            "yesterday",
+            "May 7, 2023"
+          ],
+          "salient_facts": [
+            "attended_lgbtq_support_group=2023-05-07",
+            "identity=transgender",
+            "feeling=accepted_and_empowered",
+            "support_group_impact=positive"
+          ],
+          "turn_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "boundary_reason": null
+        },
+        {
+          "segment_id": "seg_2",
+          "title": "Career planning in counseling and mental health",
+          "summary": "Caroline discusses her future plans, expressing interest in continuing her education and exploring career options. She is particularly keen on counseling or working in mental health to support people with similar experiences. Melanie encourages her, noting her empathy would make her a great counselor.",
+          "key_entities": [
+            "Caroline",
+            "education",
+            "career",
+            "counseling",
+            "mental health"
+          ],
+          "salient_facts": [
+            "education_plan=continuing",
+            "career_interest=counseling_and_mental_health",
+            "motivation=supporting_similar_people",
+            "strengths=empathy_and_understanding"
+          ],
+          "turn_indices": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "boundary_reason": "Intent shift from discussing past experience at support group to planning future career path"
+        }
+      ]
+    },
+    {
+      "session_id": "session_2",
+      "datetime": "1:14 pm on 25 May, 2023",
+      "messages": [
+        {
+          "role": "Melanie",
+          "content": "Hey Caroline, since we last chatted, I've had a lot of things happening to me. I ran a charity race for mental health last Saturday – it was really rewarding."
+        },
+        {
+          "role": "Caroline",
+          "content": "That charity race sounds great, Mel! Making a difference & raising awareness for mental health is super rewarding."
+        },
+        {
+          "role": "Melanie",
+          "content": "Thanks, Caroline! The event was really thought-provoking. I'm starting to realize that self-care is really important."
+        },
+        {
+          "role": "Caroline",
+          "content": "I totally agree, Melanie. Taking care of ourselves is so important."
+        },
+        {
+          "role": "Melanie",
+          "content": "My kids are so excited about summer break! We're thinking about going camping next month."
+        },
+        {
+          "role": "Caroline",
+          "content": "Researching adoption agencies — it's been a dream to have a family and give a loving home to kids who need it."
+        },
+        {
+          "role": "Melanie",
+          "content": "Wow, Caroline! That's awesome! Your future family is gonna be so lucky to have you!"
+        }
+      ],
+      "segments": [
+        {
+          "segment_id": "seg_1",
+          "title": "Melanie's charity race and self-care",
+          "summary": "Melanie shares that she ran a charity race for mental health last Saturday, which was rewarding and thought-provoking. Both discuss the importance of self-care. Melanie mentions her kids are excited for summer break and considering camping next month (June 2023).",
+          "key_entities": [
+            "Melanie",
+            "charity race",
+            "mental health",
+            "last Saturday",
+            "self-care",
+            "kids",
+            "summer break",
+            "camping",
+            "June 2023"
+          ],
+          "salient_facts": [
+            "melanie_charity_race=2023-05-20",
+            "cause=mental_health",
+            "realization=self_care_important",
+            "family_plan=camping_june_2023",
+            "kids_status=excited_for_summer"
+          ],
+          "turn_indices": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "boundary_reason": null
+        },
+        {
+          "segment_id": "seg_2",
+          "title": "Caroline's adoption research",
+          "summary": "Caroline shifts topic to share she is researching adoption agencies. It's been her dream to have a family and provide a loving home to children in need. Melanie expresses support and excitement for Caroline's future family.",
+          "key_entities": [
+            "Caroline",
+            "adoption agencies",
+            "family",
+            "children"
+          ],
+          "salient_facts": [
+            "adoption_research=in_progress",
+            "goal=create_family",
+            "motivation=helping_kids_in_need",
+            "relationship_status=single",
+            "future_plan=adoption"
+          ],
+          "turn_indices": [
+            6,
+            7
+          ],
+          "boundary_reason": "Topic shift from Melanie's family activities and self-care to Caroline's adoption plans"
+        }
+      ]
+    }
+  ]
+}
+
