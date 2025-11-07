@@ -1,0 +1,31 @@
+[
+    {
+        "conv_id": "conv-26",
+        "qas":[
+            {
+                "question":"...",
+                "answer":"...",
+                "evidences":[
+                    "evidence1",
+                    "evidence2"
+                ],
+                "category":"..."
+            }
+        ],
+        "dialogs":[
+            {
+                "datetime":"session_date_time",
+                "messages":[
+                    {
+                        "role":"user",
+                        "content":"..."
+                    },
+                    {
+                        "role":"assistant",
+                        "content":"..."
+                    }
+                ]
+            }
+        ]
+    }
+]
